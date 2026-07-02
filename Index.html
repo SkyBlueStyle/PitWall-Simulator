@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Project</title>
+
+<style>
+    body {
+        background-color: #2d2d2d;
+        font-family: 'Formula1', Arial, sans-serif;
+        color: rgb(230, 230, 230);
+        padding: 25px;
+        text-align: left;
+    }
+
+    .circuit-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .card {
+        background-color: #2a2a2a;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        border: 2px solid #444;
+    }
+
+    .card:hover {
+        border: 2px solid #f10000;
+    }
+
+    .card img {
+        width: 100%;
+        height: 120px;
+        object-fit: contain;
+        background-color: #000000;
+        padding: 8px;
+    }
+
+    .card-info {
+        padding: 8px;
+    }
+
+    .card-info h2 {
+        font-size: 12px;
+        margin-bottom: 4px;
+        color: rgb(255, 51, 0);
+    }
+
+    .card-info p {
+        font-size: 11px;
+        color: #fdfdfd;
+    }
+</style>
+
+</head>
+<body>
+
+    <p align="center"> Scegli il circuito da analizzare</p>
+   
+    <div class="circuit-grid">
+
+        <div class="card">
+            <img src="Circuiti\AlbertPark.png" alt="Albert Park">
+            <div class="card-info">
+                <h2> Albert Park Circuit </h2>
+                <p>Australia</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Shanghai.png" alt="Shanghai International Circuit">
+            <div class="card-info">
+                <h2> Shanghai International Circuit </h2>
+                <p>Cina</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Suzuka.png " alt="Suzuka Circuit">
+            <div class="card-info">
+                <h2> Suzuka Circuit </h2>
+                <p>Giappone</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Miami.png" alt="Miami International Autodrome">
+            <div class="card-info">
+                <h2> Miami International Autodrome </h2>
+                <p>Miami</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Gilles.png" alt="Circuit Gilles - Villeneuve">
+            <div class="card-info">
+                <h2> Circuit Gilles - Villeneuve </h2>
+                <p>Canada</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Monaco.png " alt="Circuit de Monaco">
+            <div class="card-info">
+                <h2> Circuit de Monaco </h2>
+                <p>Monaco</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src=" Circuiti\Barcelona.png" alt="Circuit de Barcelona-Catalunya">
+            <div class="card-info">
+                <h2> Circuit de Barcelona-Catalunya </h2>
+                <p>Barcellona</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\RedBullRing.png" alt="Red Bull Ring">
+            <div class="card-info">
+                <h2> Red Bull Ring </h2>
+                <p>Austria</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Silverstone.png" alt="Silverstone Circuit">
+            <div class="card-info">
+                <h2> Silverstone Circuit </h2>
+                <p>Gran Bretagna</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Spa.png" alt="Circuit de Spa Francorchamps">
+            <div class="card-info">
+                <h2> Circuit de Spa-Francorchamps </h2>
+                <p>Belgio</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Hungaroring.png" alt="Hungaroring">
+            <div class="card-info">
+                <h2> Hungaroring </h2>
+                <p>Ungheria</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Zandvoort.jpg" alt="Circuit Zandvoort">
+            <div class="card-info">
+                <h2> Circuit Zandvoort </h2>
+                <p>Olanda</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src=" Circuiti\Monza.png" alt="Autodromo Nazionale Monza">
+            <div class="card-info">
+                <h2> Autodromo Nazionale Monza </h2>
+                <p>Italia</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Madrid.png" alt="IFEMA Madrid Circuit">
+            <div class="card-info">
+                <h2> IFEMA Madrid Circuit </h2>
+                <p>Spagna</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Baku.png" alt="Baku City Circuit">
+            <div class="card-info">
+                <h2> Baku City Circuit </h2>
+                <p>Azerbaigian</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\MarinaBay.png" alt="Marina Bay Street Circuit">
+            <div class="card-info">
+                <h2> Marina Bay Street Circuit </h2>
+                <p>Singapore</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Americas.png" alt="Circuit of the Americas">
+            <div class="card-info">
+                <h2> Circuit of the Americas </h2>
+                <p>Stati Uniti</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Hermanos.png" alt="Autódromo Hermanos Rodríguez">
+            <div class="card-info">
+                <h2> Autódromo Hermanos Rodríguez </h2>
+                <p>Messico</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Interlagos.png" alt="Interlagos">
+            <div class="card-info">
+                <h2> Interlagos </h2>
+                <p>Brasile</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\LasVegas.png" alt="Las Vegas Strip Circuit">
+            <div class="card-info">
+                <h2> Las Vegas Strip Circuit </h2>
+                <p>Las Vegas</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\Losail.png " alt="Lusail International Circuit">
+            <div class="card-info">
+                <h2> Lusail International Circuit </h2>
+                <p>Qatar</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Circuiti\YasMarina.png " alt="Yas Marina Circuit">
+            <div class="card-info">
+                <h2> Yas Marina Circuit </h2>
+                <p>Abu Dhabi</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
